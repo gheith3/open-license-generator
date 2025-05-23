@@ -13,9 +13,18 @@
 \usepackage{array}
 \usepackage{fancyhdr}
 \usepackage{enumitem}
+\usepackage{parskip}
 
-% Page geometry
-\geometry{a4paper, margin=2.5cm}
+% Page geometry - reduce margins for more content space
+\geometry{
+    a4paper,
+    top=2cm,
+    bottom=2cm,
+    left=2cm,
+    right=2cm,
+    headheight=14pt,
+    includehead
+}
 
 % Colors
 \definecolor{linkcolor}{RGB}{0,83,155}
@@ -32,18 +41,24 @@
     urlcolor=linkcolor,
 }
 
-% Title formatting
-\titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter}{1em}{}
-\titlespacing*{\chapter}{0pt}{-20pt}{40pt}
+% Title formatting - reduce spacing
+\titleformat{\chapter}{\normalfont\LARGE\bfseries}{\thechapter.}{1em}{}
+\titlespacing*{\chapter}{0pt}{0pt}{10pt}
 
-% Listing style
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+
+% Adjust spacing for lists - make more compact
+\setlist{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt,leftmargin=*}
+\setlist[itemize]{label=\textbullet}
+
+% Listing style - optimize space
 \lstdefinestyle{mystyle}{
     backgroundcolor=\color{backcolour},   
     commentstyle=\color{codegreen},
     keywordstyle=\color{magenta},
-    numberstyle=\tiny\color{codegray},
     stringstyle=\color{codepurple},
-    basicstyle=\ttfamily\footnotesize,
+    basicstyle=\ttfamily\small,
     breakatwhitespace=false,         
     breaklines=true,                 
     captionpos=b,                    
@@ -53,7 +68,13 @@
     showspaces=false,                
     showstringspaces=false,
     showtabs=false,                  
-    tabsize=2
+    tabsize=2,
+    frame=single,
+    framesep=3pt,
+    framexleftmargin=5pt,
+    xleftmargin=15pt,
+    belowskip=0.5\baselineskip,
+    aboveskip=0.5\baselineskip
 }
 \lstset{style=mystyle}
 
@@ -64,6 +85,31 @@
 \lhead{Intelligent Open Source License Recommendation System}
 \renewcommand{\headrulewidth}{0.4pt}
 
+% Make chapter pages also use fancy style
+\makeatletter
+\renewcommand{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi
+  \thispagestyle{fancy}%
+  \global\@topnum\z@
+  \@afterindentfalse
+  \secdef\@chapter\@schapter}
+\makeatother
+
+% Optimize paragraph spacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}  % Reduced from 6pt
+
+% Table spacing
+\renewcommand{\arraystretch}{1.2}
+
+% Figure spacing
+\setlength{\floatsep}{10pt}
+\setlength{\textfloatsep}{10pt}
+\setlength{\intextsep}{10pt}
+
+% Table of contents spacing
+\setcounter{tocdepth}{2}
+\renewcommand{\baselinestretch}{1.1}
+
 \begin{document}
 
 % Cover page
@@ -72,16 +118,15 @@
     \vspace*{-1cm}
     % Nankai University Logo
     \includegraphics[width=0.4\textwidth]{nankai-logo.pdf}\\[1cm]
-    {\large\bfseries School of Computer Science\\
-    Nankai University\\[1cm]}
+    {\large\bfseries Nankai University\\[1cm]}
 
-    {\Huge\bfseries Intelligent Open Source License\\Recommendation System\\[1.5cm]}
+    {\Huge\bfseries Intelligent Open Source License\\Recommendation System\\[1cm]}
 
     {\Large\bfseries Technical Report\\[0.5cm]}
 
-    {\large\bfseries A Modern Approach to License Selection}\\[2cm]
+    {\large\bfseries A Modern Approach to License Selection}\\[1.5cm]
 
-    {\Large\bfseries Prepared by:\\[0.5cm]
+    {\largeb\bfseries Prepared by:\\[0.5cm]
     \begin{tabular}{ll}
         Name               & Student ID \\
         \hline
@@ -90,15 +135,18 @@
         Gheith Alrawahi    & 2120246006 \\
         Gheyath AL Mamoori & 2120246020 \\
         Mohamed Sidi       & 2120246048 \\
-    \end{tabular}\\[2cm]}
-
-    {\large\bfseries \today}
+    \end{tabular}\\}
 
 \end{titlepage}
 
 % Table of contents
+\pagestyle{fancy}
 \tableofcontents
-\newpage
+\thispagestyle{fancy}
+
+% Force fancy style for the first page after TOC
+\clearpage
+\thispagestyle{fancy}
 
 % Introduction
 \chapter{Introduction}
@@ -248,55 +296,55 @@ A unique feature of this system is its fully dynamic design. The system allows e
 \section{System Interface}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{Screenshots/os1.png}
+    \includegraphics[width=0.9\textwidth]{Screenshots/os1.png}
     \caption{Main Interface}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{Screenshots/os2.png}
+    \includegraphics[width=0.9\textwidth]{Screenshots/os2.png}
     \caption{License Selection Process}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{Screenshots/os3.png}
+    \includegraphics[width=0.9\textwidth]{Screenshots/os3.png}
     \caption{Question Interface}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{Screenshots/os4.png}
+    \includegraphics[width=0.9\textwidth]{Screenshots/os4.png}
     \caption{Admin Dashboard}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{Screenshots/os5.png}
+    \includegraphics[width=0.9\textwidth]{Screenshots/os5.png}
     \caption{License Management}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{Screenshots/os6.png}
+    \includegraphics[width=0.9\textwidth]{Screenshots/os6.png}
     \caption{Question Management}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{Screenshots/os7.png}
+    \includegraphics[width=0.9\textwidth]{Screenshots/os7.png}
     \caption{User Interface}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{Screenshots/os8.png}
+    \includegraphics[width=0.9\textwidth]{Screenshots/os8.png}
     \caption{Results Display}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{Screenshots/os9.png}
+    \includegraphics[width=0.9\textwidth]{Screenshots/os9.png}
     \caption{System Overview}
 \end{figure}
 
