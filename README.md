@@ -185,6 +185,10 @@ _System Overview_
 
 The Intelligent Open Source License Recommendation System is an effective and extensible tool designed to help developers make informed licensing decisions. Built entirely with open technologies, it aligns well with the ethos of open source itself. By transforming a complex legal decision into a guided process, the system lowers barriers for developers around the world and promotes sustainable open source practices.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. The MIT License was chosen to promote open collaboration while maintaining simplicity and permissiveness, allowing others to freely use, modify, and distribute this tool while preserving attribution to the original authors.
+
 ## Contributors
 
 -   Zamo Rzgar Ahmed (2120246004)
