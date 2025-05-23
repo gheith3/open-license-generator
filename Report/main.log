@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.24)  23 MAY 2025 16:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.24)  23 MAY 2025 16:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -274,53 +274,61 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip68
 \f@nch@widthR=\skip69
 \@temptokenb=\toks26
+) (C:\Users\ghak9\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip70
+\enit@outerparindent=\dimen180
+\enit@toks=\toks27
+\enit@inbox=\box59
+\enit@count@id=\count299
+\enitdp@description=\count300
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 26.
+Package hyperref Info: Option `colorlinks' set `true' on input line 33.
  (C:\Users\ghak9\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count299
-\l__pdf_internal_box=\box59
+\l__color_backend_stack_int=\count301
+\l__pdf_internal_box=\box60
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
  (C:\Users\ghak9\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count300
-\scratchdimen=\dimen180
-\scratchbox=\box60
-\nofMPsegments=\count301
-\nofMParguments=\count302
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count303
-\MPscratchDim=\dimen181
-\MPnumerator=\count304
-\makeMPintoPDFobject=\count305
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count302
+\scratchdimen=\dimen181
+\scratchbox=\box61
+\nofMPsegments=\count303
+\nofMParguments=\count304
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count305
+\MPscratchDim=\dimen182
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
+\everyMPtoPDFconversion=\toks29
 ) (C:\Users\ghak9\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\ghak9\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 38.
+Package hyperref Info: Link coloring ON on input line 67.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -360,37 +368,34 @@ Package hyperref Info: Link coloring ON on input line 38.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count306
-<Screenshots/Nankai_University_logo.svg.png, id=51, 1204.5pt x 1204.5pt>
-File: Screenshots/Nankai_University_logo.svg.png Graphic file (type png)
-<use Screenshots/Nankai_University_logo.svg.png>
-Package pdftex.def Info: Screenshots/Nankai_University_logo.svg.png  used on input line 45.
-(pdftex.def)             Requested size: 182.09486pt x 182.0824pt.
+\c@lstlisting=\count308
+<nankai-logo.pdf, id=63, 99.58505pt x 99.57802pt>
+File: nankai-logo.pdf Graphic file (type pdf)
+<use nankai-logo.pdf>
+Package pdftex.def Info: nankai-logo.pdf  used on input line 74.
+(pdftex.def)             Requested size: 182.09486pt x 182.09377pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 57.
+(Font)              <17.28> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 57.
+(Font)              <12> on input line 85.
 
 
 [1
 
-{C:/Users/ghak9/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Screenshots/Nankai_University_logo.svg.png>]
-e:/Projects/open-license-generator/report/main.tex:69: Missing } inserted.
-<inserted text> 
-                }
-l.69 \end{titlepage}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+{C:/Users/ghak9/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./nankai-logo.pdf>]
 
-(main.toc
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2] (main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 4.
+(Font)              <6> on input line 3.
 )
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -401,83 +406,36 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.73 \newpage
-              [1
+l.101 \newpage
+               [1
 
 ]
 Chapter 1.
-e:/Projects/open-license-generator/report/main.tex:76: Undefined control sequence.
-<argument> \chaptertitle 
-                         
-l.76 \chapter{Introduction}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 
 
-[2
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.110 \chapter
+              {Installation Guide} [2
 
 ]
 Chapter 2.
-e:/Projects/open-license-generator/report/main.tex:82: Undefined control sequence.
-<argument> \chaptertitle 
-                         
-l.82 \chapter{Project Objectives}
-                                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
+(C:\Users\ghak9\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+) (C:\Users\ghak9\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
 
 [3
 
 ]
-Chapter 3.
-e:/Projects/open-license-generator/report/main.tex:91: Undefined control sequence.
-<argument> \chaptertitle 
-                         
-l.91 \chapter{System Architecture}
-                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Overfull \hbox (9.8858pt too wide) in paragraph at lines 172--173
+[]\OT1/cmr/m/n/12 After com-plet-ing these steps, you can ac-cess the ap-pli-ca-tion at \OT1/cmtt/m/n/12 http://localhost:8000\OT1/cmr/m/n/12 . 
+ []
 
 
-
-[4
-
-]
-Chapter 4.
-e:/Projects/open-license-generator/report/main.tex:113: Undefined control sequence.
-<argument> \chaptertitle 
-                         
-l.113 \chapter{Methodology}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-
-[5
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.151 \end{itemize}
-                   ]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -486,99 +444,76 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6]
-Chapter 5.
-e:/Projects/open-license-generator/report/main.tex:154: Undefined control sequence.
-<argument> \chaptertitle 
-                         
-l.154 \chapter{Results and Screenshots}
-                                       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[4]
+Chapter 3.
 
-<Screenshots/os1.png, id=105, 1927.2pt x 992.70876pt>
-File: Screenshots/os1.png Graphic file (type png)
-<use Screenshots/os1.png>
-Package pdftex.def Info: Screenshots/os1.png  used on input line 158.
-(pdftex.def)             Requested size: 364.19667pt x 187.5866pt.
-<Screenshots/os2.png, id=106, 1927.2pt x 992.70876pt>
-File: Screenshots/os2.png Graphic file (type png)
-<use Screenshots/os2.png>
-Package pdftex.def Info: Screenshots/os2.png  used on input line 164.
-(pdftex.def)             Requested size: 364.19667pt x 187.5866pt.
-<Screenshots/os3.png, id=107, 1927.2pt x 992.70876pt>
-File: Screenshots/os3.png Graphic file (type png)
-<use Screenshots/os3.png>
-Package pdftex.def Info: Screenshots/os3.png  used on input line 170.
-(pdftex.def)             Requested size: 364.19667pt x 187.5866pt.
+
+[5
+
+]
+Chapter 4.
+
+
+[6
+
+]
+Chapter 5.
 
 
 [7
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.173 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.173 
-       <./Screenshots/os1.png> <./Screenshots/os2.png>]
-<Screenshots/os4.png, id=114, 1927.2pt x 992.70876pt>
-File: Screenshots/os4.png Graphic file (type png)
-<use Screenshots/os4.png>
-Package pdftex.def Info: Screenshots/os4.png  used on input line 176.
+l.247 \chapter
+              {Results and Screenshots}]
+Chapter 6.
+<Screenshots/os1.png, id=168, 1927.2pt x 992.70876pt>
+File: Screenshots/os1.png Graphic file (type png)
+<use Screenshots/os1.png>
+Package pdftex.def Info: Screenshots/os1.png  used on input line 251.
 (pdftex.def)             Requested size: 364.19667pt x 187.5866pt.
-<Screenshots/os5.png, id=115, 1927.2pt x 992.70876pt>
-File: Screenshots/os5.png Graphic file (type png)
-<use Screenshots/os5.png>
-Package pdftex.def Info: Screenshots/os5.png  used on input line 182.
+<Screenshots/os2.png, id=169, 1927.2pt x 992.70876pt>
+File: Screenshots/os2.png Graphic file (type png)
+<use Screenshots/os2.png>
+Package pdftex.def Info: Screenshots/os2.png  used on input line 257.
 (pdftex.def)             Requested size: 364.19667pt x 187.5866pt.
-<Screenshots/os6.png, id=116, 1927.2pt x 992.70876pt>
-File: Screenshots/os6.png Graphic file (type png)
-<use Screenshots/os6.png>
-Package pdftex.def Info: Screenshots/os6.png  used on input line 188.
+<Screenshots/os3.png, id=170, 1927.2pt x 992.70876pt>
+File: Screenshots/os3.png Graphic file (type png)
+<use Screenshots/os3.png>
+Package pdftex.def Info: Screenshots/os3.png  used on input line 263.
 (pdftex.def)             Requested size: 364.19667pt x 187.5866pt.
 
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3}) has been already used, duplicate ignored
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.191 
+l.266 
       
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.191 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.191 
-       <./Screenshots/os3.png> <./Screenshots/os4.png> <./Screenshots/os5.png>]
-<Screenshots/os7.png, id=124, 1927.2pt x 992.70876pt>
-File: Screenshots/os7.png Graphic file (type png)
-<use Screenshots/os7.png>
-Package pdftex.def Info: Screenshots/os7.png  used on input line 194.
+l.266 
+       <./Screenshots/os1.png> <./Screenshots/os2.png>]
+<Screenshots/os4.png, id=177, 1927.2pt x 992.70876pt>
+File: Screenshots/os4.png Graphic file (type png)
+<use Screenshots/os4.png>
+Package pdftex.def Info: Screenshots/os4.png  used on input line 269.
 (pdftex.def)             Requested size: 364.19667pt x 187.5866pt.
-<Screenshots/os8.png, id=125, 1927.2pt x 2078.76625pt>
-File: Screenshots/os8.png Graphic file (type png)
-<use Screenshots/os8.png>
-Package pdftex.def Info: Screenshots/os8.png  used on input line 200.
-(pdftex.def)             Requested size: 364.19667pt x 392.81277pt.
+<Screenshots/os5.png, id=178, 1927.2pt x 992.70876pt>
+File: Screenshots/os5.png Graphic file (type png)
+<use Screenshots/os5.png>
+Package pdftex.def Info: Screenshots/os5.png  used on input line 275.
+(pdftex.def)             Requested size: 364.19667pt x 187.5866pt.
+<Screenshots/os6.png, id=179, 1927.2pt x 992.70876pt>
+File: Screenshots/os6.png Graphic file (type png)
+<use Screenshots/os6.png>
+Package pdftex.def Info: Screenshots/os6.png  used on input line 281.
+(pdftex.def)             Requested size: 364.19667pt x 187.5866pt.
 
 
 
@@ -589,21 +524,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.203 
+l.284 
       
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.7}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.203 
-       <./Screenshots/os6.png> <./Screenshots/os7.png>]
-<Screenshots/os9.png, id=132, 1927.2pt x 1176.395pt>
-File: Screenshots/os9.png Graphic file (type png)
-<use Screenshots/os9.png>
-Package pdftex.def Info: Screenshots/os9.png  used on input line 206.
-(pdftex.def)             Requested size: 364.19667pt x 222.29675pt.
+l.284 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.284 
+       <./Screenshots/os3.png> <./Screenshots/os4.png> <./Screenshots/os5.png>]
+<Screenshots/os7.png, id=187, 1927.2pt x 992.70876pt>
+File: Screenshots/os7.png Graphic file (type png)
+<use Screenshots/os7.png>
+Package pdftex.def Info: Screenshots/os7.png  used on input line 287.
+(pdftex.def)             Requested size: 364.19667pt x 187.5866pt.
+<Screenshots/os8.png, id=188, 1927.2pt x 2078.76625pt>
+File: Screenshots/os8.png Graphic file (type png)
+<use Screenshots/os8.png>
+Package pdftex.def Info: Screenshots/os8.png  used on input line 293.
+(pdftex.def)             Requested size: 364.19667pt x 392.81277pt.
 
 
 
@@ -614,31 +559,45 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.211 \chapter
-              {Conclusion}
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.9}) has been already used, duplicate ignored
+l.296 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.211 \chapter
-              {Conclusion} <./Screenshots/os8.png> <./Screenshots/os9.png>]
-Chapter 6.
-e:/Projects/open-license-generator/report/main.tex:211: Undefined control sequence.
-<argument> \chaptertitle 
-                         
-l.211 \chapter{Conclusion}
-                          
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+l.296 
+       <./Screenshots/os6.png> <./Screenshots/os7.png>]
+<Screenshots/os9.png, id=195, 1927.2pt x 1176.395pt>
+File: Screenshots/os9.png Graphic file (type png)
+<use Screenshots/os9.png>
+Package pdftex.def Info: Screenshots/os9.png  used on input line 299.
+(pdftex.def)             Requested size: 364.19667pt x 222.29675pt.
 
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.304 \chapter
+              {Conclusion}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.304 \chapter
+              {Conclusion} <./Screenshots/os8.png> <./Screenshots/os9.png>]
+Chapter 7.
+
+
+[12
 
 ] (main.aux)
  ***********
@@ -646,20 +605,20 @@ LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-09>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3664A2E923AFACFD92A3BE2976115B32;1666.
+(rerunfilecheck)             Checksum: FE629444FD7CF6C04D517BE2C0719AFF;2071.
  ) 
 Here is how much of TeX's memory you used:
- 11794 strings out of 473570
- 184420 string characters out of 5716153
- 594906 words of memory out of 5000000
- 34818 multiletter control sequences out of 15000+600000
- 564050 words of font info for 56 fonts, out of 8000000 for 9000
+ 12576 strings out of 473570
+ 194401 string characters out of 5716153
+ 841240 words of memory out of 5000000
+ 35549 multiletter control sequences out of 15000+600000
+ 564218 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,501b,546s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\ghak9\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/ghak9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ghak9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ghak9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (12 pages, 814896 bytes).
+ 75i,11n,79p,501b,2113s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\ghak9\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/ghak9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ghak9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ghak9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/ghak9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/ghak9/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (14 pages, 851492 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 147 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 253 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

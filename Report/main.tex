@@ -12,12 +12,19 @@
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{fancyhdr}
+\usepackage{enumitem}
 
 % Page geometry
 \geometry{a4paper, margin=2.5cm}
 
 % Colors
 \definecolor{linkcolor}{RGB}{0,83,155}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+% Hyperref setup
 \hypersetup{
     colorlinks=true,
     linkcolor=linkcolor,
@@ -26,14 +33,36 @@
 }
 
 % Title formatting
-\titleformat{\chapter}[display]
-{\normalfont\huge\bfseries}{\chaptertitle}{20pt}{\Huge}
+\titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter}{1em}{}
+\titlespacing*{\chapter}{0pt}{-20pt}{40pt}
+
+% Listing style
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
 
 % Header and footer
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{\thepage}
 \lhead{Intelligent Open Source License Recommendation System}
+\renewcommand{\headrulewidth}{0.4pt}
 
 \begin{document}
 
@@ -42,12 +71,11 @@
     \centering
     \vspace*{-1cm}
     % Nankai University Logo
-    \includegraphics[width=0.4\textwidth]{Screenshots/Nankai_University_logo.svg.png}\\[1cm]
+    \includegraphics[width=0.4\textwidth]{nankai-logo.pdf}\\[1cm]
     {\large\bfseries School of Computer Science\\
-    Nankai University\\[1cm]
+    Nankai University\\[1cm]}
 
-
-    {\Huge\bfseries Intelligent Open Source License\\Recommendation System\\}
+    {\Huge\bfseries Intelligent Open Source License\\Recommendation System\\[1.5cm]}
 
     {\Large\bfseries Technical Report\\[0.5cm]}
 
@@ -55,16 +83,16 @@
 
     {\Large\bfseries Prepared by:\\[0.5cm]
     \begin{tabular}{ll}
-        Name            & Student ID \\
+        Name               & Student ID \\
         \hline
-        John Smith      & 20230001   \\
-        Jane Doe        & 20230002   \\
-        Michael Johnson & 20230003   \\
-        Sarah Williams  & 20230004   \\
-        David Brown     & 20230005   \\
+        Zamo Rzgar Ahmed   & 2120246004 \\
+        Naser Al Musalhi   & 2120246005 \\
+        Gheith Alrawahi    & 2120246006 \\
+        Gheyath AL Mamoori & 2120246020 \\
+        Mohamed Sidi       & 2120246048 \\
     \end{tabular}\\[2cm]}
 
-
+    {\large\bfseries \today}
 
 \end{titlepage}
 
@@ -77,6 +105,71 @@
 In the modern era of collaborative software development, open source licenses serve as vital instruments that define the terms under which software can be used, modified, and distributed. Licenses ensure legal protection, promote transparency, and foster community trust. Despite their importance, many developers, especially those new to open source, struggle to choose a license that aligns with their values and project goals.
 
 This project was created to simplify the license selection process for open source developers. It allows users to answer a few structured questions, then automatically suggests the most suitable license based on their answers. This reduces confusion, saves time, and ensures legal clarity for developers and users alike.
+
+% Installation Guide
+\chapter{Installation Guide}
+This section provides step-by-step instructions for setting up the project locally.
+
+\section{Prerequisites}
+Before installing the project, ensure you have the following prerequisites installed:
+\begin{itemize}
+    \item PHP 8.2 or higher
+    \item Composer (PHP package manager)
+    \item Node.js and npm
+    \item Git
+\end{itemize}
+
+\section{Installation Steps}
+Follow these steps to set up the project:
+
+\begin{enumerate}[label=\arabic*.]
+    \item Clone the repository:
+          \begin{lstlisting}[language=bash]
+git clone https://github.com/gheith3/open-license-generator.git
+cd open-license-generator
+    \end{lstlisting}
+
+    \item Install PHP dependencies:
+          \begin{lstlisting}[language=bash]
+composer install
+    \end{lstlisting}
+
+    \item Create environment file:
+          \begin{lstlisting}[language=bash]
+cp .env.example .env
+php artisan key:generate
+    \end{lstlisting}
+
+    \item Configure the database in .env file:
+          \begin{lstlisting}
+DB_CONNECTION=sqlite
+DB_DATABASE=/absolute/path/to/database.sqlite
+    \end{lstlisting}
+
+    \item Create the SQLite database:
+          \begin{lstlisting}[language=bash]
+touch database/database.sqlite
+php artisan migrate
+    \end{lstlisting}
+
+    \item Seed the database with initial data:
+          \begin{lstlisting}[language=bash]
+php artisan db:seed
+    \end{lstlisting}
+
+    \item Install frontend dependencies:
+          \begin{lstlisting}[language=bash]
+npm install
+npm run dev
+    \end{lstlisting}
+
+    \item Start the development server:
+          \begin{lstlisting}[language=bash]
+php artisan serve
+    \end{lstlisting}
+\end{enumerate}
+
+After completing these steps, you can access the application at \texttt{http://localhost:8000}.
 
 % Project Objectives
 \chapter{Project Objectives}
