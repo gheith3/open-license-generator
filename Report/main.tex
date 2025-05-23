@@ -1,0 +1,214 @@
+\documentclass[12pt,a4paper]{report}
+
+% Essential packages
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{fancyhdr}
+
+% Page geometry
+\geometry{a4paper, margin=2.5cm}
+
+% Colors
+\definecolor{linkcolor}{RGB}{0,83,155}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    filecolor=linkcolor,
+    urlcolor=linkcolor,
+}
+
+% Title formatting
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitle}{20pt}{\Huge}
+
+% Header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{Intelligent Open Source License Recommendation System}
+
+\begin{document}
+
+% Cover page
+\begin{titlepage}
+    \centering
+    \vspace*{-1cm}
+    % Nankai University Logo
+    \includegraphics[width=0.4\textwidth]{Screenshots/Nankai_University_logo.svg.png}\\[1cm]
+    {\large\bfseries School of Computer Science\\
+    Nankai University\\[1cm]
+
+
+    {\Huge\bfseries Intelligent Open Source License\\Recommendation System\\}
+
+    {\Large\bfseries Technical Report\\[0.5cm]}
+
+    {\large\bfseries A Modern Approach to License Selection}\\[2cm]
+
+    {\Large\bfseries Prepared by:\\[0.5cm]
+    \begin{tabular}{ll}
+        Name            & Student ID \\
+        \hline
+        John Smith      & 20230001   \\
+        Jane Doe        & 20230002   \\
+        Michael Johnson & 20230003   \\
+        Sarah Williams  & 20230004   \\
+        David Brown     & 20230005   \\
+    \end{tabular}\\[2cm]}
+
+
+
+\end{titlepage}
+
+% Table of contents
+\tableofcontents
+\newpage
+
+% Introduction
+\chapter{Introduction}
+In the modern era of collaborative software development, open source licenses serve as vital instruments that define the terms under which software can be used, modified, and distributed. Licenses ensure legal protection, promote transparency, and foster community trust. Despite their importance, many developers, especially those new to open source, struggle to choose a license that aligns with their values and project goals.
+
+This project was created to simplify the license selection process for open source developers. It allows users to answer a few structured questions, then automatically suggests the most suitable license based on their answers. This reduces confusion, saves time, and ensures legal clarity for developers and users alike.
+
+% Project Objectives
+\chapter{Project Objectives}
+\begin{itemize}
+    \item To simplify open source license selection through guided user input.
+    \item To educate users on key licensing concerns (e.g., attribution, commercial use).
+    \item To enable extensibility through a dynamic, database-driven architecture.
+    \item To build the application entirely with open source tools and technologies.
+\end{itemize}
+
+% System Architecture
+\chapter{System Architecture}
+\section{Technologies Used}
+This application is developed using a modern open source stack:
+\begin{itemize}
+    \item \textbf{Laravel 12}: Web framework for backend and routing.
+    \item \textbf{Livewire}: Enables dynamic and reactive components.
+    \item \textbf{Filament}: Admin panel and UI builder for Laravel.
+    \item \textbf{SQLite}: Lightweight database for simplicity and portability.
+    \item \textbf{PHP 8.2} and \textbf{Composer}: Programming language and dependency manager.
+    \item \textbf{PHPUnit}: Automated testing framework.
+\end{itemize}
+
+\section{Database Design}
+\begin{itemize}
+    \item \texttt{LicenseTemplate}: Stores metadata and full text of licenses.
+    \item \texttt{Question}: Stores each decision-making prompt.
+    \item \texttt{Option}: Possible answers to each question.
+    \item \texttt{OptionLicenseScore}: Scores linking options to license recommendations.
+    \item \texttt{GeneratedLicense}: User-specific license results.
+\end{itemize}
+
+% Methodology
+\chapter{Methodology}
+\section{Question Design}
+The system uses a small set of high-impact questions to evaluate user intent. Each question corresponds to a major licensing principle:
+
+\begin{enumerate}
+    \item Should the software be usable with minimal restrictions?
+    \item Should derivative works be open sourced?
+    \item Should users give credit to the original author?
+    \item Should commercial use be allowed?
+\end{enumerate}
+
+Each option (typically "Yes" or "No") is scored for every license template. This score reflects how well the option aligns with the goals of that license.
+
+\section{Scoring Algorithm}
+The system uses a weighted scoring system:
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lccc}
+        \toprule
+        Question                    & MIT & GPL & Apache \\
+        \midrule
+        Minimal restrictions        & 3   & 1   & 2      \\
+        Open source for derivatives & 1   & 3   & 2      \\
+        Attribution required        & 2   & 3   & 2      \\
+        Allow commercial use        & 3   & 1   & 3      \\
+        \bottomrule
+    \end{tabular}
+    \caption{License Scoring Matrix}
+\end{table}
+
+\section{System Flexibility and Extensibility}
+A unique feature of this system is its fully dynamic design. The system allows easy addition of new licenses and questions without modifying code:
+
+\begin{itemize}
+    \item New licenses are added via the \texttt{LicenseTemplate} table.
+    \item New questions and answer options are added via the \texttt{Question} and \texttt{Option} models.
+    \item \texttt{OptionLicenseScore} links every answer to a license score.
+\end{itemize}
+
+% Results and Screenshots
+\chapter{Results and Screenshots}
+\section{System Interface}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Screenshots/os1.png}
+    \caption{Main Interface}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Screenshots/os2.png}
+    \caption{License Selection Process}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Screenshots/os3.png}
+    \caption{Question Interface}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Screenshots/os4.png}
+    \caption{Admin Dashboard}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Screenshots/os5.png}
+    \caption{License Management}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Screenshots/os6.png}
+    \caption{Question Management}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Screenshots/os7.png}
+    \caption{User Interface}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Screenshots/os8.png}
+    \caption{Results Display}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Screenshots/os9.png}
+    \caption{System Overview}
+\end{figure}
+
+% Conclusion
+\chapter{Conclusion}
+The Intelligent Open Source License Recommendation System is an effective and extensible tool designed to help developers make informed licensing decisions. Built entirely with open technologies, it aligns well with the ethos of open source itself. By transforming a complex legal decision into a guided process, the system lowers barriers for developers around the world and promotes sustainable open source practices.
+
+\end{document}

@@ -1,0 +1,20 @@
+\documentclass[crop,tikz]{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}
+    % Circle border
+    \draw[line width=2pt] (0,0) circle (2cm);
+
+    % Inner circle
+    \draw[line width=1pt] (0,0) circle (1.8cm);
+
+    % University name in Chinese-like symbols (simplified)
+    \node at (0,0.5) {\Large\bfseries 南开大学};
+
+    % English text
+    \node[align=center] at (0,-0.5) {\small NANKAI\\UNIVERSITY};
+
+    % Established year
+    \node at (0,-1.2) {\tiny EST. 1919};
+\end{tikzpicture}
+\end{document}
