@@ -154,31 +154,28 @@ This approach makes it easy to:
 
 ### System Interface
 
-![Main Interface](Screenshots/os1.png)
-_Main Interface_
+![Index Page](Report/Screenshots/os0.png)
+_Index Page_
 
-![License Selection Process](Screenshots/os2.png)
-_License Selection Process_
+![Admin Panel Signin](Report/Screenshots/os3.png)
+_Admin Panel Signin_
 
-![Question Interface](Screenshots/os3.png)
-_Question Interface_
-
-![Admin Dashboard](Screenshots/os4.png)
+![Admin Dashboard](Report/Screenshots/os4.png)
 _Admin Dashboard_
 
-![License Management](Screenshots/os5.png)
+![License Management](Report/Screenshots/os5.png)
 _License Management_
 
-![Question Management](Screenshots/os6.png)
+![Question Management](Report/Screenshots/os6.png)
 _Question Management_
 
-![User Interface](Screenshots/os7.png)
+![User Interface](Report/Screenshots/os7.png)
 _User Interface_
 
-![Results Display](Screenshots/os8.png)
+![Results Display](Report/Screenshots/os8.png)
 _Results Display_
 
-![System Overview](Screenshots/os9.png)
+![System Overview](Report/Screenshots/os9.png)
 _System Overview_
 
 ## Conclusion

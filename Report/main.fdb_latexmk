@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1747990396.50833 "e:/Projects/open-license-generator/report/main.tex" "main.pdf" "main" 1747990400.59336 0
+["pdflatex"] 1747996811.82942 "e:/Projects/open-license-generator/report/main.tex" "main.pdf" "main" 1747996813.78667 2
   "C:/Users/ghak9/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747988955 186443 36ab386ce9d0663719212e135e7aba50 ""
   "C:/Users/ghak9/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1742802998 14064 20f18a51c5201018221fff2b5e1c56a0 ""
   "C:/Users/ghak9/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1742800344 11994064 579c27419780f67ed6a3c13a087c9904 ""
@@ -83,8 +83,7 @@
   "C:/Users/ghak9/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1730400552 14552 27664839421e418b87f56fa4c6f66b1a ""
   "C:/Users/ghak9/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ghak9/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "Screenshots/os1.png" 1747985269 87962 f39487cd374a5c1c83aa1a9b926a6dde ""
-  "Screenshots/os2.png" 1747985278 116889 00b36dbe85d636ebb1209806300b7c93 ""
+  "Screenshots/os0.png" 1747996535 83098 0d4d34adb7f837062c987a51b3fc49da ""
   "Screenshots/os3.png" 1747986217 51241 7a239836f1926cb05e473c60f16fce34 ""
   "Screenshots/os4.png" 1747986232 63255 69f1f46e35ddcee237c71551c2f06b85 ""
   "Screenshots/os5.png" 1747986249 133574 13f717dd04dfb0c356f905fee33d0213 ""
@@ -92,11 +91,11 @@
   "Screenshots/os7.png" 1747986281 115148 88006ec36fc7a8c88ebb15d75d02c602 ""
   "Screenshots/os8.png" 1747986297 182212 304fd0c96e93ee9270de6cfc64fffd62 ""
   "Screenshots/os9.png" 1747986311 203690 c5018bfef9fd7070fcd6540abc741ce8 ""
-  "e:/Projects/open-license-generator/report/main.tex" 1747990393 11617 60d2214cfd8a4b3e72fd563d97d566c1 ""
-  "main.aux" 1747990400 3769 07460e7df611a2b078e4f7dcafc0ea68 "pdflatex"
-  "main.out" 1747990400 2071 fe629444fd7cf6c04d517be2c0719aff "pdflatex"
-  "main.tex" 1747990393 11617 60d2214cfd8a4b3e72fd563d97d566c1 ""
-  "main.toc" 1747990400 1131 9f8a846331c3574d41d6d5277151fd8c "pdflatex"
+  "e:/Projects/open-license-generator/report/main.tex" 1747996806 11458 709fa91d892088be7c440ec18c74f5e6 ""
+  "main.aux" 1747996813 3624 d6bb801a429b8a81a1494cf6ae60069b "pdflatex"
+  "main.out" 1747996813 2071 fe629444fd7cf6c04d517be2c0719aff "pdflatex"
+  "main.tex" 1747996806 11458 709fa91d892088be7c440ec18c74f5e6 ""
+  "main.toc" 1747996813 1131 4b55209f97752ead7c036690fd844cea "pdflatex"
   "nankai-logo.pdf" 1747989987 155871 7d6f93daa3890b1405e676edeb94877c ""
   (generated)
   "main.aux"
